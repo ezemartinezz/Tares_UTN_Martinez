@@ -1,28 +1,13 @@
 
 #<# 1- Crear una función que le solicite al usuario el ingreso de un número entero y lo retorne.
 
-"""
-Sin parametro
-"""
+def numero_entero():
+    numero = int(input("Ingrese un numero: "))    
+    return numero
 
-# def numero_entero():
-#     numero = int(input("Ingrese un numero: "))    
-#     return numero
+num = numero_entero()
+print(f"El numero ingresado es {num}")
 
-# num = numero_entero()
-# print(f"El numero ingresado es {num}")
-
-"""
-Con parametro
-"""
-""" ESTA MAL ECHO PORQUE SE TIENE QUE PEDIR DENTRO DE LA FUNCION
-numero = int(input("Ingrese un numero: "))
-
-def numero_entero(numero):
-    print(f"El numero ingresado es {numero}")
-    
-numero_entero(numero) 
-"""
 
 ## 2 - Crear una función que le solicite al usuario el ingreso de un número flotante y lo retorne.
 
